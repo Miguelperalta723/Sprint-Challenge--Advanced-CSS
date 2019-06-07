@@ -216,6 +216,7 @@ footer {
   align-items: center;
 }
 .home {
+  max-width: 80rem;
   width: 80%;
 }
 @media (max-width: 500px) {
