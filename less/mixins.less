@@ -1,1 +1,30 @@
 // Mixins Here
+
+//  LESS Mixins: Create and use 2 different mixins to aid your styling. Use the mixins.less file for your mixins
+
+
+
+
+.walk-style {
+     margin-top: 60px;
+    border-top: 1px solid @main-border-color;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-style {
+    width: 28%;
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      height: 100%;
+}
+
+.button-style(@bgcolor, @color){
+    background: @bgcolor;
+        color: @color;
+        font-size: 2rem;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        width: 11rem;
+}
